@@ -3,7 +3,7 @@
     "base": "io.atom.electron.BaseApp",
     "base-version": "stable",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "1.6",
+    "runtime-version": "unstable",
     "sdk": "org.freedesktop.Sdk",
     "command": "signal",
     "separate-locales": false,
@@ -37,8 +37,8 @@
                 {
                     "type": "file",
                     "only-arches": ["x86_64"],
-                    "url": "https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.12.0_amd64.deb",
-                    "sha256": "53b37a735dd1b1752be6ac7559ae25ede61f995bc7843b38f67762d169bc89a5"
+                    "url": "https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.12.1_amd64.deb",
+                    "sha256": "dde126795671895f26c5fcb68f70ce66c253f9fd6b0c501db3efff89e68505dd"
                 },
                 {
                     "type": "script",
